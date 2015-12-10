@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Tryouts {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner console = new Scanner (System.in);
+		System.out.println("Please enter numerator one");
+		double num1 = console.nextInt();
+		System.out.println("Please enter denominator one");
+		double den1 = console.nextInt();
+		System.out.println("Please enter numerator two");
+		double num2 = console.nextInt();
+		System.out.println("Please enter denominator two");
+		double den2 = console.nextInt();
+		
+		double fract1 = (num1/den1);
+		double fract2 = (num2/den2);
+		
+		System.out.println("The sum of the fractions is " + (fract1+fract2));
+		System.out.println("The difference of the fractions is "+(fract1-fract2));
+		System.out.println("The product of the fractions is "+(fract1*fract2));
+		System.out.println("The quotient of the fractions is "+(fract1/fract2));
+		
+	}
+
+}
